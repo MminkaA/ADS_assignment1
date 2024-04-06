@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Problem6 {
-    public static double power(double a, int n) {
+    public static double power(double a, int n) { //complexity O(n)
         return (n == 0) ? 1 : (n > 0) ? a * power(a, n - 1) : 1 / (a * power(a, -n - 1));
     }
     public static void main(String[] args) {
