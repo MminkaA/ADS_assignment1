@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Problem2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // complexity O(n)
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int[] arr = new int[n];
