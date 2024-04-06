@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Problem7 {
-    public static void permutations(String str, String prefix) {
+    public static void permutations(String str, String prefix) { //complexity O(n!)
         int n = str.length();
         if (n == 0) {
             System.out.println(prefix);
