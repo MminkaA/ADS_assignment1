@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Problem9 {
     public static Scanner sc = new Scanner(System.in);
-    public static int binomiamCoeffficient(int n ,  int k) {
+    public static int binomiamCoeffficient(int n ,  int k) { //complexity O(2^n)
         if(k == 0 || k == n){
             return 1;
         }
