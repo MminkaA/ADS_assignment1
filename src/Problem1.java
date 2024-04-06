@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Problem1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// complexity O(n)
         int[] array = {10, 1, 32, 3, 45};
         int minimum = findMinimum(array);
         System.out.println("min element: " + minimum);
