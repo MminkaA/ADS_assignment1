@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Problem10 {
-    public static int gcd(int a, int b) {
+    public static int gcd(int a, int b) {//complexity: O(log(min(a,b)))
         return b == 0 ? a : gcd(b, a % b);
     }
     public static void main(String[] args) {
