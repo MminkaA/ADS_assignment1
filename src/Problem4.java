@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Problem4 {
-    public static int factorial(int n) {
+    public static int factorial(int n) {//complexity O(n!)
         if (n == 0) return 1;
         return n * factorial(n - 1);
     }
