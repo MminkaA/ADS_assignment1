@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Problem8 {
-    public static boolean isAllDigits(String s) {
+    public static boolean isAllDigits(String s) { //complexity O(n)
         return s.matches("\\d+");
     }
     public static void main(String[] args) {
